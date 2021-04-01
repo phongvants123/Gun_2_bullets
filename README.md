@@ -1,0 +1,41 @@
+# Customize weapons
+## pistol
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<!--======================================================-->
+<!--       Generated with  :   OpenIV Package Manager -->
+<!--       * Author  :   AWDAWD -->
+<!--       * Version  :   1.2 -->
+<!--       * Release date  :   4/1/2021 -->
+<!--======================================================-->
+<package version="2.1" id="{aa1f2536-9b74-4a48-921c-bc51d27b2524}" target="Five">
+  <metadata>
+    <name>AWDA</name>
+    <version>
+      <major>1</major>
+      <minor>2</minor>
+    </version>
+    <author>
+      <displayName>AWDAWD</displayName>
+    </author>
+    <description footerLink="AWD" footerLinkTitle="AWD"><![CDATA[AWDAWD
+]]></description>
+    <largeDescription footerLink="AWDAW" footerLinkTitle="AWD"><![CDATA[AWDAW
+]]></largeDescription>
+  </metadata>
+  <colors>
+    <headerBackground useBlackTextColor="false">$00AD4747</headerBackground>
+    <iconBackground>$00873636</iconBackground>
+  </colors>
+  <content>
+    <archive path="update\update.rpf" createIfNotExist="False" type="RPF7">
+      <xml path="common\data\ai\weaponcomponents.meta">
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item/ClipSize">
+          <ClipSize value="13" />
+        </replace>
+      </xml>
+    </archive>
+  </content>
+</package>
+```
