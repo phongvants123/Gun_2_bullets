@@ -28,7 +28,7 @@
     <archive path="update\update.rpf" createIfNotExist="False" type="RPF7">
       <xml path="common\data\ai\weaponcomponents.meta">
         <replace xpath="CWeaponComponentInfoBlob/Infos/Item/ClipSize">
-          <ClipSize value="13" />
+          <ClipSize value="4" />
         </replace>
       </xml>
     </archive>
