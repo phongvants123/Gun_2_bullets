@@ -7,3 +7,4 @@
 - khi dùng oiv để cài oiv package, lun cài ở mod folder (vì nó ko ghi đè giữ liệu vào thư mục game. mà sẽ tạo 1 cái trong mod)
 - Trang lấy Xml path: https://xmltoolbox.appspot.com/xpath_generator.html
 - Openiv nói gì về cách tạo .OIV ? : https://github.com/OpenIV-Team/OpenIV-PackageFormat/blob/master/specification/versions/2.1.md
+- lỗi nhẹ khi ClipSize[@value="8"], bỏ số 8 đi ok
